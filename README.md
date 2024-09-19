@@ -1,5 +1,7 @@
 The goal of this project is to fetch data from an API, store it in a MySQL database, and then generate a report based on that data. The report displays customer purchase history, showing products bought, quantities, prices, and totals.
+
 Step-by-Step Development Process
+
 1. Database Setup
 •	Created a MySQL database named store_db using Laragon.
 •	Defined tables for users, products, and purchase_history to store API data related to customer purchases.
@@ -25,10 +27,12 @@ o	Inserted or updated user, product, and purchase history data based on unique i
 7. Running the Application
 •	Started the backend server on http://localhost:3001 to handle requests.
 •	Used the frontend React app to trigger report generation and view the results in the UI.
+
 Thought Process and Design Decisions
 •	Used React for the frontend and Node.js/Express for the backend to maintain clear separation between the two.
 •	Carefully structured the database to accommodate different pieces of data (users, products, and purchase history) and ensure data consistency.
 •	Focused on making the UI simple and clean, using a table to neatly present the report data.
+
 Project Setup Steps
 1.	Clone the project from GitHub
 2.	Navigate to the project directory and run npm install to install all necessary dependencies for both the frontend (React) and backend (Node.js/Express).
